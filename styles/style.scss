@@ -1,7 +1,12 @@
 @import './navbar.scss';
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #111;
     color: #ccc;
-    padding: 10px 30px;
+    // padding: 10px 30px;
 }
