@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        height: 100px;
+    }
+
+    .menu-button {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        
+        > * {
+            width: 30px;
+            height: 2px;
+            background: #ccc;
+            margin: 5px; 
+            border-radius: 50px;
+        }
+    }
+}

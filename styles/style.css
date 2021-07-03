@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 100px;
+}
+nav .menu-button {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+nav .menu-button > * {
+  width: 30px;
+  height: 2px;
+  background: #ccc;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+body {
+  background: #111;
+  color: #ccc;
+  padding: 10px 30px;
+}/*# sourceMappingURL=style.css.map */
