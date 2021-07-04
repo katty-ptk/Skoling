@@ -9,7 +9,7 @@ nav {
 }
 nav img {
   height: 100px;
-  margin-left: 20px;
+  margin-left: 0px;
   border-radius: 18px;
 }
 nav h2 {
@@ -33,6 +33,40 @@ nav .menu-button > * {
   border-radius: 50px;
 }
 
+.folders {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+.folders .folder {
+  height: 300px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  overflow: auto;
+}
+.folders .folder h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+.folders .folder p {
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+.folders .folder p:hover {
+  color: #7dc9e0;
+}
+.folders .folder .first-p {
+  margin-top: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,4 +75,5 @@ nav .menu-button > * {
 body {
   background: #111;
   color: #ccc;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
