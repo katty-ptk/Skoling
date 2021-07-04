@@ -1,0 +1,38 @@
+.folders {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    
+    .folder {
+        height: 300px;
+        width: 250px;
+        border: 2px solid #ccc;
+        border-radius: 40px;
+        overflow: auto;
+
+        h3 {
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        p {
+            margin-top: 15px;
+            margin-left: 30px;  
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 300ms ease-in;
+
+            &:hover {
+                color: rgb(125, 201, 224);
+            }
+        }
+
+        .first-p {
+            margin-top: 25px;
+        }
+    }
+}
